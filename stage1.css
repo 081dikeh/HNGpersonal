@@ -17,16 +17,27 @@ html{
 
 body {
     background: #171717 ;
-    padding-top: clamp(50px,4vw,50px);
+    /* padding-top: clamp(50px,4vw,50px); */
 }
 
 .container {
     max-width: 1400px;
+    margin: auto;
+    text-align: center;
+}
+
+header {
+    padding-block: clamp(20px,3vw,30px);
+    background: #27AE60 ;
+}
+header h1{
+    font-size: clamp(25px, 4vw, 48px);
 }
 
 .personal {
     width: 100%;
     margin: auto;
+    padding-block: clamp(20px,3vw,30px);
 }
 
 .personal > p{
@@ -37,7 +48,7 @@ body {
 
 .personal > img {
     display: block;
-    width: clamp(200px, 50%, 300px);
+    width: clamp(200px, 50%, 500px);
     margin: auto;
     border-radius: 2rem;
     padding: 2rem;
@@ -45,12 +56,27 @@ body {
 }
 
 /* day of the week */
-.currentDayOfTheWeek, .UTCTime {
+.currentDayOfTheWeek {
     margin-block: clamp(25px, 2vw, 30px);
+    font-size: clamp(20px, 3vw, 35px);
+    font-weight: 600;
+}
+.UTCTime {
+    background: #27AE60;
+    width: clamp(90%,60vw,700px);
+    margin: auto;
+    margin-bottom: clamp(25px, 3vw, 30px);
+}
+.UTCTime p {
+    padding-block: clamp(10px, 2vw, 15px);
+    line-height: 40px;
     font-size: clamp(20px, 2vw, 35px);
 }
-
 /* track */
+.Track {
+    padding-bottom: clamp(10px,4vw,40px);
+}
+
 .Track > p{
     font-weight: 500;
     font-size: clamp(25px, 3vw, 36px);
@@ -60,11 +86,13 @@ body {
 
 /* github */
 .Github {
-    padding-block: clamp(20px,2vw,30px);
+    padding-block: clamp(10px,1vw,20px);
     font-style: italic;
+    background: #27AE60;
 }
 .Github a {
     color: #691ea7;
+    font-size: 18px;
 }
 
 

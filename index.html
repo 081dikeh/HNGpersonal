@@ -7,9 +7,13 @@
     <link rel="stylesheet" href="stage1.css">
 </head>
 <body>
+    <header>
+        <h1>Welcome to my website</h1>
+    </header>
     <div class="container">
+
         <div class="personal">
-            <p data-testid="slackUserName">Dikeh Daniel</p>
+            <p data-testid="slackUserName">DaniD</p>
             <img src="portfolio image-1.jpg" alt="DaniD" data-testid="slackDisplayImage">
         </div>
     
@@ -18,16 +22,22 @@
         </div>
     
         <div class="UTCTime">
+            <p id="localTime">Local Time: </br>
+                <span id="hour">00</span>
+                <span id="minute">00</span>
+                <span id="second">00</span>
+                <span id="ampm">AM</span>
+            </p>
             <p data-testid="currentUTCTime" id="timeInMilliseconds"></p>
         </div>
     
         <div class="Track">
-            <p data-testid="myTrack">Frontend</p>
+            <p data-testid="myTrack">Track: Frontend</p>
         </div>
     
-        <div class="Github">
-            <a href="https://github.com/081dikeh/HNGpersonal" data-testid="githubURL">Source code</a>
-        </div>
+    </div>
+    <div class="Github">
+        <a href="https://github.com/081dikeh/HNGpersonal" data-testid="githubURL">Source code</a>
     </div>
     
 

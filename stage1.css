@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
+
+html{
+    scroll-behavior: smooth;
+}
+
+* { 
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    box-sizing: border-box;
+    text-decoration: none;
+    text-align: center;
+    color: #fff;
+    font-family: 'DM Sans';/* #27AE60 */
+}
+
+body {
+    background: #171717 ;
+    padding-top: clamp(50px,4vw,50px);
+}
+
+.container {
+    max-width: 1400px;
+}
+
+.personal {
+    width: 100%;
+    margin: auto;
+}
+
+.personal > p{
+    font-weight: 700;
+    font-size: clamp(25px, 4vw, 48px);
+    margin: 0 0 2.375rem;
+}
+
+.personal > img {
+    display: block;
+    width: clamp(200px, 50%, 300px);
+    margin: auto;
+    border-radius: 2rem;
+    padding: 2rem;
+    border: 1px solid #333131;
+}
+
+/* day of the week */
+.currentDayOfTheWeek, .UTCTime {
+    margin-block: clamp(25px, 2vw, 30px);
+    font-size: clamp(20px, 2vw, 35px);
+}
+
+/* track */
+.Track > p{
+    font-weight: 500;
+    font-size: clamp(25px, 3vw, 36px);
+    line-height: 47px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

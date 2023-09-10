@@ -58,6 +58,14 @@ body {
 }
 
 
+/* github */
+.Github {
+    padding-block: clamp(20px,2vw,30px);
+    font-style: italic;
+}
+.Github a {
+    color: #691ea7;
+}
 
 
 
